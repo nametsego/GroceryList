@@ -11,12 +11,16 @@ public class Main {
         snackList.add("Cheetos");
         snackList.add("Doritos");
         snackList.add("Skittles");
+        snackList.add("Kit kat Dark chocolate");
+        snackList.add("Jumping jack pop corn");
 
         ArrayList<String> bevList = new ArrayList<>();
         bevList.add("Sprite zero sugar");
         bevList.add("Water");
         bevList.add("Ginger ale");
         bevList.add("Lean");
+        bevList.add("Mineral Water");
+        bevList.add("Mountain Dew");
 
         ArrayList<String> bakeryList = new ArrayList<>();
         bakeryList.add("Garlic bread");
@@ -29,6 +33,8 @@ public class Main {
         munchiesList.add(bevList);
         munchiesList.add(snackList);
         munchiesList.add(bakeryList);
+
+        System.out.println(munchiesList.get(1).get(4));
 
 
 
